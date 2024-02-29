@@ -1,0 +1,25 @@
+
+       //////////////////////////////// Hide the default checkbox *///////////////
+
+input[type="checkbox"]{          
+    
+        /* Hide the default checkbox */
+        appearance: none;
+       
+        /* Define the size */
+        width: 20px;
+        height: 20px;
+        /* Add a custom background color */
+        background-color: #ccc;
+        /* Add other styles like border, etc. */
+        border: 1px solid #999;
+        /* Make it round */
+        border-radius: 4px;
+        /* Add padding or margin for better spacing */
+        margin-right: 5px;
+        color: red;
+
+}
+input[type="checkbox"]:checked {
+    background-color: #3f51b5; /* Change to desired color */
+  }
